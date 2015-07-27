@@ -16,7 +16,7 @@ import 'vm_test_runner.dart';
 
 /// Properly dispatch running tests to the correct [TestRunner].
 class TestRunnerDispatcher {
-  static const _defaultTimeout = const Duration(seconds: 240);
+  static const _defaultTimeout = const Duration(minutes: 10);
 
   /// Pointers to all Dart SDK binaries.
   final DartBinaries dartBinaries;
